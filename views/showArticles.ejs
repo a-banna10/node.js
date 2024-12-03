@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Articles</title>
+  </head>
+  <body>
+    <h1>Articles Page</h1>
+    <hr />
+    <div style="background-color: orangered; color: black; padding: 20px">
+      <%for(let article of allArticles){%>
+      <h1><%=article.title %></h1>
+      <h2><%=article.body %></h2>
+      <% } %>
+    </div>
+  </body>
+</html>
